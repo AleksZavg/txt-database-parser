@@ -10,5 +10,5 @@ def index():
     return "This is index page"
 
 if __name__ == '__main__':
-    app.run(debug=True, use_reloader=True, port=config.get('port'))
+    app.run(use_reloader=True, port=config.get('port'))
 
