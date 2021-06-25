@@ -7,6 +7,6 @@ config = {
     "dashboard":{
         "url_link": env.str("url_link"), 
         "file": env.str("file_name")
-        }
-    
+        },
+    "port": env.int("port")
     }
