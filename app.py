@@ -9,5 +9,5 @@ def index():
     return "This is index page"
 
 if __name__ == '__main__':
-    pass
+    app.run(debug=True, use_reloader=True)
 
