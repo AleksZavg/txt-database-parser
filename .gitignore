@@ -127,5 +127,5 @@ dmypy.json
 # my setting 
 __pycache__
 venv
-temp/**
-**/temp/**
+temp/
+**/temp/
