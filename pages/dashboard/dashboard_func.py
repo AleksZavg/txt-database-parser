@@ -8,7 +8,7 @@ from pathlib import Path
 def dashboard():
     res = get_data_list()
     items_list, data_list = res[0], res[1]
-    return render_template('dashboard/dashboard.html', title='Dashboard', data_list=data_list, items_list=items_list)
+    return render_template('dashboard/dashboard.html', timeout=config.get('dashboard').get('timeout'), title='Dashboard', data_list=data_list, items_list=items_list)
 
 
 def get_data_list():
